@@ -1,0 +1,53 @@
+.row{
+    margin-top: 1em;
+}
+
+.card-body{
+    height: 22em;
+}
+a:hover { text-decoration: none;}
+
+hr{
+    overflow: visible; /* For IE */
+    border: 0 solid #607d8b;
+    border-top-width: 1px;
+}
+
+.seemore{
+    position: absolute;
+    bottom: 5px;
+    left: 47%;
+    right: 50%;
+    font-size: 25px;
+}
+
+/*.foreach{
+margin-top: 10%;
+}*/
+
+.foreach p{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.foreach a{
+    color: #0f0f0f;
+}
+
+.foreach a:hover{
+    color: white;
+}
+
+.foreach p:hover{
+    background-color: #0c73cd;
+    box-shadow: 0px 0px 5px 0px rgba(34,34,2,1),
+    inset 0px 0px 5px 0px rgba(255,255,255,0.8);
+
+}
+
+.empty_foreach{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}

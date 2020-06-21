@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.titre
+{
+    font-family: Lobster;
+    color: #00ac94;
+    font-size: 250px;
+    
+
+}
+.sous{
+    font-family: Lobster;
+    font-size: 50px;
+    margin-top:3vh;
+}
+
+.boutton{
+    font-size: 40px;
+    height: 80px;
+    width: 400px;
+    display: block;
+    
+}
+
+@media screen and (max-width: 1400px) and (max-height: 800px){
+    .titre{
+        font-size: 150px;
+    }
+    .sous{
+        margin-top: 2vh;
+        font-size: 30px;
+    }
+}

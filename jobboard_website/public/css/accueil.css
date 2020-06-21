@@ -1,0 +1,56 @@
+h1,h2,h3,h4,b{
+    color: rgb(0,172,154);
+}
+tr,td,.table-bordered th,.table-bordered td {
+    border: solid #00ac94;
+    color: #666B85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.table-bordered th {
+    background-color: #eee;
+}
+
+.image{
+    max-height: 450px;
+}
+div#slider figure img { width: 20%; height: auto; float: left; }
+div#slider { width: 100%; max-width: 1200px; overflow: hidden }
+@keyframes slidy {
+0% { left: 0%; }
+15%{ left: 0%;}
+30% { left: -100%;}
+45% { left: -100%;}
+60% {left:-200%;}
+75%{left: -200%;}
+100%{right: -200%;}
+}
+
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+}
+
+.jumbotron {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+}
+.border-success {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 10px #00AC9A;
+}
+
+.navbar-brand{
+
+}
